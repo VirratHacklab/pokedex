@@ -1,0 +1,38 @@
+#logo-splash,
+#scan {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    text-align: center;
+}
+#logo {
+    position: absolute;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#scan {
+    background-image: url(../images/scan.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#logo-splash {
+    animation: fade-out 1s linear;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
