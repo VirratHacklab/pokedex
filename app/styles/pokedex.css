@@ -36,3 +36,8 @@
         opacity: 0;
     }
 }
+
+#video {
+    width: 800px;
+    height: 480px;
+}
